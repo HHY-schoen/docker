@@ -14,7 +14,10 @@
 - 容器 container : 容器是 docker 的運行實例，提供一個獨立的可移植環境，可以在環境中運行應用。
   >  鏡像與容器的關係: 類似於 食譜(鏡像)對應於各道料理(容器)。
 - 倉庫 registry : docker 倉庫是用於儲存 docker 鏡像的地方(ex. dockerhub)。
-  
+- 我們在終端輸入的各種 docker 命令，實際上都是通過 docker 客戶端，發送給 docker daemon 的，docker daemon 再進行處理，最後再將結果返回給客戶端。
+
+### 容器化 containerization 和 dockerfile
+
 
 -------------------
 refer: https://www.youtube.com/watch?v=Ozb9mZg7MVM
