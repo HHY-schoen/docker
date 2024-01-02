@@ -18,9 +18,9 @@
 
 ### 容器化 containerization 和 dockerfile
 - 將應用程序打包成容器，然後在容器中運行應用程序的過程。
-> step 1. 創建一個 docker file
-> step 2. 使用 docker file 的構建鏡像
-> step 3. 使用鏡像創建和運行容器
+> - step 1. 創建一個 docker file
+> - step 2. 使用 docker file 的構建鏡像
+> - step 3. 使用鏡像創建和運行容器
 
 -------------------
 refer: https://www.youtube.com/watch?v=Ozb9mZg7MVM
