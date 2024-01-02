@@ -10,7 +10,11 @@
 > docker 和容器 container 是兩個不同的概念!  docker 只是容器的一種實現，是一個容器化的解決方案和平台。而容器是一種虛擬化技術。
 
 ### 基本原理與概念
+- 鏡像 images : 鏡像是一個只讀取的模板，它可以用來創建容器
+- 容器 container : 容器是 docker 的運行實例，提供一個獨立的可移植環境，可以在環境中運行應用。
+  >  鏡像與容器的關係: 類似於 食譜(鏡像)對應於各道料理(容器)。
+- 倉庫 registry : docker 倉庫是用於儲存 docker 鏡像的地方(ex. dockerhub)。
+  
 
-
-
+-------------------
 refer: https://www.youtube.com/watch?v=Ozb9mZg7MVM
